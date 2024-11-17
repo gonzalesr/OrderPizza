@@ -1,0 +1,103 @@
+[
+  {
+    "ContainingType": "Pizza.WebApi.Controllers.IngredientController",
+    "Method": "GetIngredients",
+    "RelativePath": "Ingredient",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Pizza.WebApi.Controllers.OrderController",
+    "Method": "CreateOrder",
+    "RelativePath": "Order",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Pizza.WebApi.Model.OrderRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Pizza.WebApi.Controllers.OrderController",
+    "Method": "GetOrderById",
+    "RelativePath": "Order/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Pizza.WebApi.Controllers.PizzaController",
+    "Method": "GetAllPizzas",
+    "RelativePath": "Pizza",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [],
+    "EndpointName": "GetAllPizzas"
+  },
+  {
+    "ContainingType": "Pizza.WebApi.Controllers.PizzaController",
+    "Method": "GetPizzaById",
+    "RelativePath": "Pizza/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Pizza.WebApi.Controllers.PizzaController",
+    "Method": "CreateCustomPizza",
+    "RelativePath": "Pizza/customize",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Pizza.WebApi.Model.CustomPizzaRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Pizza.WebApi.Controllers.PizzaController",
+    "Method": "AddPresetPizzaToOrder",
+    "RelativePath": "Pizza/preset/{id}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

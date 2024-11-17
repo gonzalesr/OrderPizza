@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Home\\source\\repos\\Pizza.WebApi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{56BDAD78-F7D8-4417-9F7A-F36BAFDD8ED3}|Pizza.WebApi\\Pizza.WebApi.csproj|c:\\users\\home\\source\\repos\\pizza.webapi\\pizza.webapi\\services\\pedido\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56BDAD78-F7D8-4417-9F7A-F36BAFDD8ED3}|Pizza.WebApi\\Pizza.WebApi.csproj|solutionrelative:pizza.webapi\\services\\pedido\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56BDAD78-F7D8-4417-9F7A-F36BAFDD8ED3}|Pizza.WebApi\\Pizza.WebApi.csproj|c:\\users\\home\\source\\repos\\pizza.webapi\\pizza.webapi\\services\\promocion\\freedeliverypromotion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56BDAD78-F7D8-4417-9F7A-F36BAFDD8ED3}|Pizza.WebApi\\Pizza.WebApi.csproj|solutionrelative:pizza.webapi\\services\\promocion\\freedeliverypromotion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56BDAD78-F7D8-4417-9F7A-F36BAFDD8ED3}|Pizza.WebApi\\Pizza.WebApi.csproj|c:\\users\\home\\source\\repos\\pizza.webapi\\pizza.webapi\\services\\delivery\\deliveryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56BDAD78-F7D8-4417-9F7A-F36BAFDD8ED3}|Pizza.WebApi\\Pizza.WebApi.csproj|solutionrelative:pizza.webapi\\services\\delivery\\deliveryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56BDAD78-F7D8-4417-9F7A-F36BAFDD8ED3}|Pizza.WebApi\\Pizza.WebApi.csproj|c:\\users\\home\\source\\repos\\pizza.webapi\\pizza.webapi\\services\\promocion\\promotioncontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56BDAD78-F7D8-4417-9F7A-F36BAFDD8ED3}|Pizza.WebApi\\Pizza.WebApi.csproj|solutionrelative:pizza.webapi\\services\\promocion\\promotioncontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PromotionContext.cs",
+              "DocumentMoniker": "C:\\Users\\Home\\source\\repos\\Pizza.WebApi\\Pizza.WebApi\\Services\\Promocion\\PromotionContext.cs",
+              "RelativeDocumentMoniker": "Pizza.WebApi\\Services\\Promocion\\PromotionContext.cs",
+              "ToolTip": "C:\\Users\\Home\\source\\repos\\Pizza.WebApi\\Pizza.WebApi\\Services\\Promocion\\PromotionContext.cs",
+              "RelativeToolTip": "Pizza.WebApi\\Services\\Promocion\\PromotionContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T23:31:47.724Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FreeDeliveryPromotion.cs",
+              "DocumentMoniker": "C:\\Users\\Home\\source\\repos\\Pizza.WebApi\\Pizza.WebApi\\Services\\Promocion\\FreeDeliveryPromotion.cs",
+              "RelativeDocumentMoniker": "Pizza.WebApi\\Services\\Promocion\\FreeDeliveryPromotion.cs",
+              "ToolTip": "C:\\Users\\Home\\source\\repos\\Pizza.WebApi\\Pizza.WebApi\\Services\\Promocion\\FreeDeliveryPromotion.cs",
+              "RelativeToolTip": "Pizza.WebApi\\Services\\Promocion\\FreeDeliveryPromotion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T23:31:15.839Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DeliveryService.cs",
+              "DocumentMoniker": "C:\\Users\\Home\\source\\repos\\Pizza.WebApi\\Pizza.WebApi\\Services\\Delivery\\DeliveryService.cs",
+              "RelativeDocumentMoniker": "Pizza.WebApi\\Services\\Delivery\\DeliveryService.cs",
+              "ToolTip": "C:\\Users\\Home\\source\\repos\\Pizza.WebApi\\Pizza.WebApi\\Services\\Delivery\\DeliveryService.cs",
+              "RelativeToolTip": "Pizza.WebApi\\Services\\Delivery\\DeliveryService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T23:30:45.512Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "OrderService.cs",
+              "DocumentMoniker": "C:\\Users\\Home\\source\\repos\\Pizza.WebApi\\Pizza.WebApi\\Services\\Pedido\\OrderService.cs",
+              "RelativeDocumentMoniker": "Pizza.WebApi\\Services\\Pedido\\OrderService.cs",
+              "ToolTip": "C:\\Users\\Home\\source\\repos\\Pizza.WebApi\\Pizza.WebApi\\Services\\Pedido\\OrderService.cs",
+              "RelativeToolTip": "Pizza.WebApi\\Services\\Pedido\\OrderService.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAYwCYAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-16T23:16:02.472Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
