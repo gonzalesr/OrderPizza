@@ -1,6 +1,6 @@
 USE [master]
 GO
-/****** Object:  Database [PizzaDB]    Script Date: 16/11/2024 19:51:42 ******/
+/****** Object:  Database [PizzaDB]    Script Date: 20/11/2024 12:25:09 ******/
 CREATE DATABASE [PizzaDB]
  CONTAINMENT = NONE
  ON  PRIMARY 
@@ -80,7 +80,7 @@ ALTER DATABASE [PizzaDB] SET QUERY_STORE = OFF
 GO
 USE [PizzaDB]
 GO
-/****** Object:  Table [dbo].[__EFMigrationsHistory]    Script Date: 16/11/2024 19:51:42 ******/
+/****** Object:  Table [dbo].[__EFMigrationsHistory]    Script Date: 20/11/2024 12:25:10 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -94,7 +94,7 @@ CREATE TABLE [dbo].[__EFMigrationsHistory](
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[CustomPizzaDetails]    Script Date: 16/11/2024 19:51:42 ******/
+/****** Object:  Table [dbo].[CustomPizzaDetails]    Script Date: 20/11/2024 12:25:10 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -102,14 +102,14 @@ GO
 CREATE TABLE [dbo].[CustomPizzaDetails](
 	[Id] [int] IDENTITY(1,1) NOT NULL,
 	[IngredientId] [int] NOT NULL,
-	[CustomPizzaRequestId] [int] NULL,
+	[CustomPizzaRequestId] [int] NOT NULL,
  CONSTRAINT [PK_CustomPizzaDetails] PRIMARY KEY CLUSTERED 
 (
 	[Id] ASC
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[CustomPizzas]    Script Date: 16/11/2024 19:51:42 ******/
+/****** Object:  Table [dbo].[CustomPizzas]    Script Date: 20/11/2024 12:25:10 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -123,7 +123,7 @@ CREATE TABLE [dbo].[CustomPizzas](
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[Ingredients]    Script Date: 16/11/2024 19:51:42 ******/
+/****** Object:  Table [dbo].[Ingredients]    Script Date: 20/11/2024 12:25:10 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -137,7 +137,7 @@ CREATE TABLE [dbo].[Ingredients](
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
 ) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[OrderDetails]    Script Date: 16/11/2024 19:51:42 ******/
+/****** Object:  Table [dbo].[OrderDetails]    Script Date: 20/11/2024 12:25:10 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -157,7 +157,7 @@ CREATE TABLE [dbo].[OrderDetails](
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
 ) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[Orders]    Script Date: 16/11/2024 19:51:42 ******/
+/****** Object:  Table [dbo].[Orders]    Script Date: 20/11/2024 12:25:10 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -178,7 +178,7 @@ CREATE TABLE [dbo].[Orders](
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
 ) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[Pizzas]    Script Date: 16/11/2024 19:51:42 ******/
+/****** Object:  Table [dbo].[Pizzas]    Script Date: 20/11/2024 12:25:10 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -194,7 +194,7 @@ CREATE TABLE [dbo].[Pizzas](
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
 ) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[Recipes]    Script Date: 16/11/2024 19:51:42 ******/
+/****** Object:  Table [dbo].[Recipes]    Script Date: 20/11/2024 12:25:10 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -203,7 +203,7 @@ CREATE TABLE [dbo].[Recipes](
 	[Id] [int] IDENTITY(1,1) NOT NULL,
 	[IngredientId] [int] NOT NULL,
 	[Quantity] [decimal](18, 2) NOT NULL,
-	[PizzaModelId] [int] NULL,
+	[PizzaModelId] [int] NOT NULL,
  CONSTRAINT [PK_Recipes] PRIMARY KEY CLUSTERED 
 (
 	[Id] ASC
@@ -228,6 +228,10 @@ INSERT [dbo].[__EFMigrationsHistory] ([MigrationId], [ProductVersion]) VALUES (N
 GO
 INSERT [dbo].[__EFMigrationsHistory] ([MigrationId], [ProductVersion]) VALUES (N'20241116231323_modificacion8', N'9.0.0')
 GO
+INSERT [dbo].[__EFMigrationsHistory] ([MigrationId], [ProductVersion]) VALUES (N'20241117013805_modificacion9', N'9.0.0')
+GO
+INSERT [dbo].[__EFMigrationsHistory] ([MigrationId], [ProductVersion]) VALUES (N'20241117043155_modificacion10', N'9.0.0')
+GO
 SET IDENTITY_INSERT [dbo].[CustomPizzaDetails] ON 
 GO
 INSERT [dbo].[CustomPizzaDetails] ([Id], [IngredientId], [CustomPizzaRequestId]) VALUES (1, 3, 1)
@@ -238,6 +242,8 @@ INSERT [dbo].[CustomPizzaDetails] ([Id], [IngredientId], [CustomPizzaRequestId])
 GO
 INSERT [dbo].[CustomPizzaDetails] ([Id], [IngredientId], [CustomPizzaRequestId]) VALUES (4, 5, 2)
 GO
+INSERT [dbo].[CustomPizzaDetails] ([Id], [IngredientId], [CustomPizzaRequestId]) VALUES (5, 1, 3)
+GO
 SET IDENTITY_INSERT [dbo].[CustomPizzaDetails] OFF
 GO
 SET IDENTITY_INSERT [dbo].[CustomPizzas] ON 
@@ -245,6 +251,8 @@ GO
 INSERT [dbo].[CustomPizzas] ([Id], [Price]) VALUES (1, CAST(0.00 AS Decimal(18, 2)))
 GO
 INSERT [dbo].[CustomPizzas] ([Id], [Price]) VALUES (2, CAST(0.00 AS Decimal(18, 2)))
+GO
+INSERT [dbo].[CustomPizzas] ([Id], [Price]) VALUES (3, CAST(10.00 AS Decimal(18, 2)))
 GO
 SET IDENTITY_INSERT [dbo].[CustomPizzas] OFF
 GO
@@ -350,36 +358,53 @@ INSERT [dbo].[Recipes] ([Id], [IngredientId], [Quantity], [PizzaModelId]) VALUES
 GO
 SET IDENTITY_INSERT [dbo].[Recipes] OFF
 GO
-/****** Object:  Index [IX_CustomPizzaDetails_CustomPizzaRequestId]    Script Date: 16/11/2024 19:51:42 ******/
+/****** Object:  Index [IX_CustomPizzaDetails_CustomPizzaRequestId]    Script Date: 20/11/2024 12:25:10 ******/
 CREATE NONCLUSTERED INDEX [IX_CustomPizzaDetails_CustomPizzaRequestId] ON [dbo].[CustomPizzaDetails]
 (
 	[CustomPizzaRequestId] ASC
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, SORT_IN_TEMPDB = OFF, DROP_EXISTING = OFF, ONLINE = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
 GO
-/****** Object:  Index [IX_OrderDetails_OrderRequestId]    Script Date: 16/11/2024 19:51:42 ******/
+/****** Object:  Index [IX_CustomPizzaDetails_IngredientId]    Script Date: 20/11/2024 12:25:10 ******/
+CREATE NONCLUSTERED INDEX [IX_CustomPizzaDetails_IngredientId] ON [dbo].[CustomPizzaDetails]
+(
+	[IngredientId] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, SORT_IN_TEMPDB = OFF, DROP_EXISTING = OFF, ONLINE = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+GO
+/****** Object:  Index [IX_OrderDetails_OrderRequestId]    Script Date: 20/11/2024 12:25:10 ******/
 CREATE NONCLUSTERED INDEX [IX_OrderDetails_OrderRequestId] ON [dbo].[OrderDetails]
 (
 	[OrderRequestId] ASC
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, SORT_IN_TEMPDB = OFF, DROP_EXISTING = OFF, ONLINE = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
 GO
-/****** Object:  Index [IX_Recipes_IngredientId]    Script Date: 16/11/2024 19:51:42 ******/
+/****** Object:  Index [IX_Recipes_IngredientId]    Script Date: 20/11/2024 12:25:10 ******/
 CREATE NONCLUSTERED INDEX [IX_Recipes_IngredientId] ON [dbo].[Recipes]
 (
 	[IngredientId] ASC
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, SORT_IN_TEMPDB = OFF, DROP_EXISTING = OFF, ONLINE = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
 GO
-/****** Object:  Index [IX_Recipes_PizzaModelId]    Script Date: 16/11/2024 19:51:42 ******/
+/****** Object:  Index [IX_Recipes_PizzaModelId]    Script Date: 20/11/2024 12:25:10 ******/
 CREATE NONCLUSTERED INDEX [IX_Recipes_PizzaModelId] ON [dbo].[Recipes]
 (
 	[PizzaModelId] ASC
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, SORT_IN_TEMPDB = OFF, DROP_EXISTING = OFF, ONLINE = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
 GO
+ALTER TABLE [dbo].[CustomPizzaDetails] ADD  DEFAULT ((0)) FOR [CustomPizzaRequestId]
+GO
 ALTER TABLE [dbo].[CustomPizzas] ADD  DEFAULT ((0.0)) FOR [Price]
+GO
+ALTER TABLE [dbo].[Recipes] ADD  DEFAULT ((0)) FOR [PizzaModelId]
 GO
 ALTER TABLE [dbo].[CustomPizzaDetails]  WITH CHECK ADD  CONSTRAINT [FK_CustomPizzaDetails_CustomPizzas_CustomPizzaRequestId] FOREIGN KEY([CustomPizzaRequestId])
 REFERENCES [dbo].[CustomPizzas] ([Id])
+ON DELETE CASCADE
 GO
 ALTER TABLE [dbo].[CustomPizzaDetails] CHECK CONSTRAINT [FK_CustomPizzaDetails_CustomPizzas_CustomPizzaRequestId]
+GO
+ALTER TABLE [dbo].[CustomPizzaDetails]  WITH CHECK ADD  CONSTRAINT [FK_CustomPizzaDetails_Ingredients_IngredientId] FOREIGN KEY([IngredientId])
+REFERENCES [dbo].[Ingredients] ([Id])
+ON DELETE CASCADE
+GO
+ALTER TABLE [dbo].[CustomPizzaDetails] CHECK CONSTRAINT [FK_CustomPizzaDetails_Ingredients_IngredientId]
 GO
 ALTER TABLE [dbo].[OrderDetails]  WITH CHECK ADD  CONSTRAINT [FK_OrderDetails_Orders_OrderRequestId] FOREIGN KEY([OrderRequestId])
 REFERENCES [dbo].[Orders] ([Id])
@@ -394,6 +419,7 @@ ALTER TABLE [dbo].[Recipes] CHECK CONSTRAINT [FK_Recipes_Ingredients_IngredientI
 GO
 ALTER TABLE [dbo].[Recipes]  WITH CHECK ADD  CONSTRAINT [FK_Recipes_Pizzas_PizzaModelId] FOREIGN KEY([PizzaModelId])
 REFERENCES [dbo].[Pizzas] ([Id])
+ON DELETE CASCADE
 GO
 ALTER TABLE [dbo].[Recipes] CHECK CONSTRAINT [FK_Recipes_Pizzas_PizzaModelId]
 GO
