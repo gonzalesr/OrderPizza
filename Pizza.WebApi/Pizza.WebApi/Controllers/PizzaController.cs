@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Pizza.WebApi.Services.PizzaS;
-using Pizza.WebApi.Model;
+using Pizza.WebApi.DTO;
 namespace Pizza.WebApi.Controllers
 {
     [ApiController]
@@ -32,7 +32,7 @@ namespace Pizza.WebApi.Controllers
 
         // Crear una pizza personalizada
         [HttpPost("customize")]
-        public IActionResult CreateCustomPizza([FromBody] CustomPizzaRequest request)
+        public IActionResult CreateCustomPizza([FromBody] CustomPizzaDTO request)
         {
             var pizza = _pizzaService.CreateCustomPizza(request);
             return CreatedAtAction(nameof(GetPizzaById), new { id = pizza.Id }, pizza);

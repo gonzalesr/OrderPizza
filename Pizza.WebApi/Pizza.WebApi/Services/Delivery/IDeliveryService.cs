@@ -4,6 +4,6 @@ namespace Pizza.WebApi.Services.Delivery
 {
     public interface IDeliveryService
     {
-        public decimal CalculateDeliveryCost(OrderRequest order);
+        public decimal CalculateDeliveryCost(OrderRequestDTO order);
     }
 }

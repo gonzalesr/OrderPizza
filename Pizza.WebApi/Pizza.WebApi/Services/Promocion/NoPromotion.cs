@@ -4,7 +4,7 @@ namespace Pizza.WebApi.Services.Promocion
 {
     public class NoPromotion:IPromotionStrategy
     {
-        public void ApplyPromotion(OrderRequest order)
+        public void ApplyPromotion(OrderRequestDTO order)
         {
 
         }

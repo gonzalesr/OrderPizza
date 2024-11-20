@@ -17,7 +17,7 @@ namespace Pizza.WebApi.Services.Pedido
             _context = context;
         }
 
-        public OrderRequest CreateOrder(OrderRequest request)
+        public OrderRequestDTO CreateOrder(OrderRequestDTO request)
         {
           
             foreach (var detail in request.Details)
@@ -43,7 +43,7 @@ namespace Pizza.WebApi.Services.Pedido
             _context.SaveChanges();
             return order;
         }
-        public OrderRequest GetOrderById(int id)
+        public OrderRequestDTO GetOrderById(int id)
         {
             
             var order = _context.Orders.FirstOrDefault(p=>p.Id == id);

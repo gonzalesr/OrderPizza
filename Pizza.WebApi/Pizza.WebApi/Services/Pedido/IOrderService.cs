@@ -5,7 +5,7 @@ namespace Pizza.WebApi.Services.Pedido
 {
     public interface IOrderService
     {
-        public OrderRequest CreateOrder(OrderRequest request);
-        public OrderRequest GetOrderById(int id);
+        public OrderRequestDTO CreateOrder(OrderRequestDTO request);
+        public OrderRequestDTO GetOrderById(int id);
     }
 }

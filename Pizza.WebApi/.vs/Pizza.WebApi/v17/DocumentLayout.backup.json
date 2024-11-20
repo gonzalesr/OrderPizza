@@ -1,22 +1,30 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Home\\source\\repos\\Pizza.WebApi\\",
+  "WorkspaceRootPath": "C:\\Users\\Home\\Documents\\GitHub\\OrderPizza\\Pizza.WebApi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{56BDAD78-F7D8-4417-9F7A-F36BAFDD8ED3}|Pizza.WebApi\\Pizza.WebApi.csproj|c:\\users\\home\\source\\repos\\pizza.webapi\\pizza.webapi\\services\\pedido\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{56BDAD78-F7D8-4417-9F7A-F36BAFDD8ED3}|Pizza.WebApi\\Pizza.WebApi.csproj|solutionrelative:pizza.webapi\\services\\pedido\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{56BDAD78-F7D8-4417-9F7A-F36BAFDD8ED3}|Pizza.WebApi\\Pizza.WebApi.csproj|c:\\users\\home\\documents\\github\\orderpizza\\pizza.webapi\\pizza.webapi\\services\\pizzas\\pizzaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56BDAD78-F7D8-4417-9F7A-F36BAFDD8ED3}|Pizza.WebApi\\Pizza.WebApi.csproj|solutionrelative:pizza.webapi\\services\\pizzas\\pizzaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{56BDAD78-F7D8-4417-9F7A-F36BAFDD8ED3}|Pizza.WebApi\\Pizza.WebApi.csproj|c:\\users\\home\\source\\repos\\pizza.webapi\\pizza.webapi\\services\\promocion\\freedeliverypromotion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{56BDAD78-F7D8-4417-9F7A-F36BAFDD8ED3}|Pizza.WebApi\\Pizza.WebApi.csproj|solutionrelative:pizza.webapi\\services\\promocion\\freedeliverypromotion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{56BDAD78-F7D8-4417-9F7A-F36BAFDD8ED3}|Pizza.WebApi\\Pizza.WebApi.csproj|c:\\users\\home\\documents\\github\\orderpizza\\pizza.webapi\\pizza.webapi\\controllers\\pizzacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56BDAD78-F7D8-4417-9F7A-F36BAFDD8ED3}|Pizza.WebApi\\Pizza.WebApi.csproj|solutionrelative:pizza.webapi\\controllers\\pizzacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{56BDAD78-F7D8-4417-9F7A-F36BAFDD8ED3}|Pizza.WebApi\\Pizza.WebApi.csproj|c:\\users\\home\\source\\repos\\pizza.webapi\\pizza.webapi\\services\\delivery\\deliveryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{56BDAD78-F7D8-4417-9F7A-F36BAFDD8ED3}|Pizza.WebApi\\Pizza.WebApi.csproj|solutionrelative:pizza.webapi\\services\\delivery\\deliveryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{56BDAD78-F7D8-4417-9F7A-F36BAFDD8ED3}|Pizza.WebApi\\Pizza.WebApi.csproj|c:\\users\\home\\documents\\github\\orderpizza\\pizza.webapi\\pizza.webapi\\services\\pizzas\\ipizzaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56BDAD78-F7D8-4417-9F7A-F36BAFDD8ED3}|Pizza.WebApi\\Pizza.WebApi.csproj|solutionrelative:pizza.webapi\\services\\pizzas\\ipizzaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{56BDAD78-F7D8-4417-9F7A-F36BAFDD8ED3}|Pizza.WebApi\\Pizza.WebApi.csproj|c:\\users\\home\\source\\repos\\pizza.webapi\\pizza.webapi\\services\\promocion\\promotioncontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{56BDAD78-F7D8-4417-9F7A-F36BAFDD8ED3}|Pizza.WebApi\\Pizza.WebApi.csproj|solutionrelative:pizza.webapi\\services\\promocion\\promotioncontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{56BDAD78-F7D8-4417-9F7A-F36BAFDD8ED3}|Pizza.WebApi\\Pizza.WebApi.csproj|c:\\users\\home\\documents\\github\\orderpizza\\pizza.webapi\\pizza.webapi\\services\\ingrediente\\iingredientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56BDAD78-F7D8-4417-9F7A-F36BAFDD8ED3}|Pizza.WebApi\\Pizza.WebApi.csproj|solutionrelative:pizza.webapi\\services\\ingrediente\\iingredientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56BDAD78-F7D8-4417-9F7A-F36BAFDD8ED3}|Pizza.WebApi\\Pizza.WebApi.csproj|c:\\users\\home\\documents\\github\\orderpizza\\pizza.webapi\\pizza.webapi\\services\\ingrediente\\ingredientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56BDAD78-F7D8-4417-9F7A-F36BAFDD8ED3}|Pizza.WebApi\\Pizza.WebApi.csproj|solutionrelative:pizza.webapi\\services\\ingrediente\\ingredientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56BDAD78-F7D8-4417-9F7A-F36BAFDD8ED3}|Pizza.WebApi\\Pizza.WebApi.csproj|c:\\users\\home\\documents\\github\\orderpizza\\pizza.webapi\\pizza.webapi\\controllers\\ingredientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56BDAD78-F7D8-4417-9F7A-F36BAFDD8ED3}|Pizza.WebApi\\Pizza.WebApi.csproj|solutionrelative:pizza.webapi\\controllers\\ingredientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,58 +34,84 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "PromotionContext.cs",
-              "DocumentMoniker": "C:\\Users\\Home\\source\\repos\\Pizza.WebApi\\Pizza.WebApi\\Services\\Promocion\\PromotionContext.cs",
-              "RelativeDocumentMoniker": "Pizza.WebApi\\Services\\Promocion\\PromotionContext.cs",
-              "ToolTip": "C:\\Users\\Home\\source\\repos\\Pizza.WebApi\\Pizza.WebApi\\Services\\Promocion\\PromotionContext.cs",
-              "RelativeToolTip": "Pizza.WebApi\\Services\\Promocion\\PromotionContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-12T23:31:47.724Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "FreeDeliveryPromotion.cs",
-              "DocumentMoniker": "C:\\Users\\Home\\source\\repos\\Pizza.WebApi\\Pizza.WebApi\\Services\\Promocion\\FreeDeliveryPromotion.cs",
-              "RelativeDocumentMoniker": "Pizza.WebApi\\Services\\Promocion\\FreeDeliveryPromotion.cs",
-              "ToolTip": "C:\\Users\\Home\\source\\repos\\Pizza.WebApi\\Pizza.WebApi\\Services\\Promocion\\FreeDeliveryPromotion.cs",
-              "RelativeToolTip": "Pizza.WebApi\\Services\\Promocion\\FreeDeliveryPromotion.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-12T23:31:15.839Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "DeliveryService.cs",
-              "DocumentMoniker": "C:\\Users\\Home\\source\\repos\\Pizza.WebApi\\Pizza.WebApi\\Services\\Delivery\\DeliveryService.cs",
-              "RelativeDocumentMoniker": "Pizza.WebApi\\Services\\Delivery\\DeliveryService.cs",
-              "ToolTip": "C:\\Users\\Home\\source\\repos\\Pizza.WebApi\\Pizza.WebApi\\Services\\Delivery\\DeliveryService.cs",
-              "RelativeToolTip": "Pizza.WebApi\\Services\\Delivery\\DeliveryService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAANAAAAAAAAAA==",
+              "Title": "IPizzaService.cs",
+              "DocumentMoniker": "C:\\Users\\Home\\Documents\\GitHub\\OrderPizza\\Pizza.WebApi\\Pizza.WebApi\\Services\\PizzaS\\IPizzaService.cs",
+              "RelativeDocumentMoniker": "Pizza.WebApi\\Services\\PizzaS\\IPizzaService.cs",
+              "ToolTip": "C:\\Users\\Home\\Documents\\GitHub\\OrderPizza\\Pizza.WebApi\\Pizza.WebApi\\Services\\PizzaS\\IPizzaService.cs",
+              "RelativeToolTip": "Pizza.WebApi\\Services\\PizzaS\\IPizzaService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAkAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-12T23:30:45.512Z",
+              "WhenOpened": "2024-11-20T15:56:43.466Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "OrderService.cs",
-              "DocumentMoniker": "C:\\Users\\Home\\source\\repos\\Pizza.WebApi\\Pizza.WebApi\\Services\\Pedido\\OrderService.cs",
-              "RelativeDocumentMoniker": "Pizza.WebApi\\Services\\Pedido\\OrderService.cs",
-              "ToolTip": "C:\\Users\\Home\\source\\repos\\Pizza.WebApi\\Pizza.WebApi\\Services\\Pedido\\OrderService.cs",
-              "RelativeToolTip": "Pizza.WebApi\\Services\\Pedido\\OrderService.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAYwCYAAAAMAAAAAAAAAA==",
+              "Title": "PizzaService.cs",
+              "DocumentMoniker": "C:\\Users\\Home\\Documents\\GitHub\\OrderPizza\\Pizza.WebApi\\Pizza.WebApi\\Services\\PizzaS\\PizzaService.cs",
+              "RelativeDocumentMoniker": "Pizza.WebApi\\Services\\PizzaS\\PizzaService.cs",
+              "ToolTip": "C:\\Users\\Home\\Documents\\GitHub\\OrderPizza\\Pizza.WebApi\\Pizza.WebApi\\Services\\PizzaS\\PizzaService.cs*",
+              "RelativeToolTip": "Pizza.WebApi\\Services\\PizzaS\\PizzaService.cs*",
+              "ViewState": "AgIAACwAAAAAAAAAAAAcwD8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-16T23:16:02.472Z",
+              "WhenOpened": "2024-11-20T15:50:08.761Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PizzaController.cs",
+              "DocumentMoniker": "C:\\Users\\Home\\Documents\\GitHub\\OrderPizza\\Pizza.WebApi\\Pizza.WebApi\\Controllers\\PizzaController.cs",
+              "RelativeDocumentMoniker": "Pizza.WebApi\\Controllers\\PizzaController.cs",
+              "ToolTip": "C:\\Users\\Home\\Documents\\GitHub\\OrderPizza\\Pizza.WebApi\\Pizza.WebApi\\Controllers\\PizzaController.cs",
+              "RelativeToolTip": "Pizza.WebApi\\Controllers\\PizzaController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T15:38:45.018Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IIngredientService.cs",
+              "DocumentMoniker": "C:\\Users\\Home\\Documents\\GitHub\\OrderPizza\\Pizza.WebApi\\Pizza.WebApi\\Services\\Ingrediente\\IIngredientService.cs",
+              "RelativeDocumentMoniker": "Pizza.WebApi\\Services\\Ingrediente\\IIngredientService.cs",
+              "ToolTip": "C:\\Users\\Home\\Documents\\GitHub\\OrderPizza\\Pizza.WebApi\\Pizza.WebApi\\Services\\Ingrediente\\IIngredientService.cs",
+              "RelativeToolTip": "Pizza.WebApi\\Services\\Ingrediente\\IIngredientService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T15:36:25.084Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IngredientService.cs",
+              "DocumentMoniker": "C:\\Users\\Home\\Documents\\GitHub\\OrderPizza\\Pizza.WebApi\\Pizza.WebApi\\Services\\Ingrediente\\IngredientService.cs",
+              "RelativeDocumentMoniker": "Pizza.WebApi\\Services\\Ingrediente\\IngredientService.cs",
+              "ToolTip": "C:\\Users\\Home\\Documents\\GitHub\\OrderPizza\\Pizza.WebApi\\Pizza.WebApi\\Services\\Ingrediente\\IngredientService.cs",
+              "RelativeToolTip": "Pizza.WebApi\\Services\\Ingrediente\\IngredientService.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAYAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T15:30:18.375Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IngredientController.cs",
+              "DocumentMoniker": "C:\\Users\\Home\\Documents\\GitHub\\OrderPizza\\Pizza.WebApi\\Pizza.WebApi\\Controllers\\IngredientController.cs",
+              "RelativeDocumentMoniker": "Pizza.WebApi\\Controllers\\IngredientController.cs",
+              "ToolTip": "C:\\Users\\Home\\Documents\\GitHub\\OrderPizza\\Pizza.WebApi\\Pizza.WebApi\\Controllers\\IngredientController.cs",
+              "RelativeToolTip": "Pizza.WebApi\\Controllers\\IngredientController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T15:29:26.872Z",
               "EditorCaption": ""
             }
           ]

@@ -11,7 +11,7 @@ namespace Pizza.WebApi.Services.Promocion
             _promotionContext = new PromotionContext();
         }
 
-        public void ApplyPromotions(OrderRequest order, DateTime date)
+        public void ApplyPromotions(OrderRequestDTO order, DateTime date)
         {
             // Determinar la estrategia según el día de la semana
             switch (date.DayOfWeek)

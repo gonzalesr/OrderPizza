@@ -4,6 +4,6 @@ namespace Pizza.WebApi.Services.Promocion
 {
     public interface IPromotionService
     {
-        public void ApplyPromotions(OrderRequest order, DateTime date);
+        public void ApplyPromotions(OrderRequestDTO order, DateTime date);
     }
 }

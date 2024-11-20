@@ -11,7 +11,7 @@ namespace Pizza.WebApi.Services.Promocion
             _promotionStrategy = promotionStrategy;
         }
 
-        public void ApplyPromotion(OrderRequest order)
+        public void ApplyPromotion(OrderRequestDTO order)
         {
             _promotionStrategy.ApplyPromotion(order);
         }

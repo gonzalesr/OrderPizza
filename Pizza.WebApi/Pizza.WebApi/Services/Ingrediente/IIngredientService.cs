@@ -1,9 +1,9 @@
-﻿using Pizza.WebApi.Model;
+﻿using Pizza.WebApi.DTO;
 
 namespace Pizza.WebApi.Services.Ingrediente
 {
     public interface IIngredientService
     {
-        public List<Ingredient> GetAvailableIngredients();
+        public List<IngredientDTO> GetAvailableIngredients();
     }
 }

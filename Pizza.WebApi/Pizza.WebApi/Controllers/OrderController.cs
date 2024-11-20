@@ -16,7 +16,7 @@ namespace Pizza.WebApi.Controllers
         }
         // Crear un nuevo pedido
         [HttpPost]
-        public IActionResult CreateOrder([FromBody] OrderRequest request)
+        public IActionResult CreateOrder([FromBody] OrderRequestDTO request)
         {
             var order = _orderService.CreateOrder(request);
             return CreatedAtAction(nameof(GetOrderById), new { id = order.Id }, order);

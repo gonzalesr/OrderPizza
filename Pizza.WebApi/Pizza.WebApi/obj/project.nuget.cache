@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "yePtiQYjvqY=",
+  "dgSpecHash": "eu3PJRU0Jfk=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Home\\source\\repos\\Pizza.WebApi\\Pizza.WebApi\\Pizza.WebApi.csproj",
+  "projectFilePath": "C:\\Users\\Home\\Documents\\GitHub\\OrderPizza\\Pizza.WebApi\\Pizza.WebApi\\Pizza.WebApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Home\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\Home\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

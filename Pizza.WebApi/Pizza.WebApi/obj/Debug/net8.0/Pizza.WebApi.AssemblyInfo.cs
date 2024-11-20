@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Pizza.WebApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+450d7b3cad4a65eba9bca228e6a1b91a103c587f")]
 [assembly: System.Reflection.AssemblyProductAttribute("Pizza.WebApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Pizza.WebApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

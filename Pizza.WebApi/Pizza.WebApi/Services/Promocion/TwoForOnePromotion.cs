@@ -4,7 +4,7 @@ namespace Pizza.WebApi.Services.Promocion
 {
     public class TwoForOnePromotion:IPromotionStrategy
     {
-        public void ApplyPromotion(OrderRequest order)
+        public void ApplyPromotion(OrderRequestDTO order)
         {
             foreach (var pizza in order.Details)
             {

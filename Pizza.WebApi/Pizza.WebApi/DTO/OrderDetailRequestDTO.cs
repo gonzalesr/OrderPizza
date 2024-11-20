@@ -1,4 +1,4 @@
-﻿namespace Pizza.WebApi.DTO
+﻿namespace Pizza.WebApi.Model
 {
     public class OrderDetailRequestDTO
     {
@@ -9,6 +9,10 @@
         public decimal Quantity { get; set; }
         public decimal Discount { get; set; }
         public decimal Subtotal { get; private set; }
+        public void UpdateSubtotal()
+        {
+            Subtotal = Price * Quantity;
+        }
 
     }
 }

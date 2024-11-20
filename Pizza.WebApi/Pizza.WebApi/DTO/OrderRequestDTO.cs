@@ -1,4 +1,4 @@
-﻿namespace Pizza.WebApi.DTO
+﻿namespace Pizza.WebApi.Model
 {
     public class OrderRequestDTO
     {

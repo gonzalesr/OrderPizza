@@ -7,7 +7,8 @@ namespace Pizza.WebApi.Model
         public string Name { get; set; }
         public double Price { get; set; }
         public string Description { get; set; }
-        public List<Recipe> Ingredients { get; set; } 
+        public ICollection<Recipe> Recipes { get; set; } 
+
 
     }
 }

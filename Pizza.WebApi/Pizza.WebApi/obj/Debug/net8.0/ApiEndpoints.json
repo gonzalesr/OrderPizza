@@ -19,7 +19,7 @@
     "Parameters": [
       {
         "Name": "request",
-        "Type": "Pizza.WebApi.Model.OrderRequest",
+        "Type": "Pizza.WebApi.Model.OrderRequestDTO",
         "IsRequired": true
       }
     ],
@@ -78,7 +78,7 @@
     "Parameters": [
       {
         "Name": "request",
-        "Type": "Pizza.WebApi.Model.CustomPizzaRequest",
+        "Type": "Pizza.WebApi.DTO.CustomPizzaDTO",
         "IsRequired": true
       }
     ],
